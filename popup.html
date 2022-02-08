@@ -14,7 +14,7 @@
   <body>
     <div class="background">
       <div class="popup">
-        <div class="image"><img src="img/bell.png" alt="logo" /></div>
+        <div class="image"><img src="img/nike.png" alt="logo" /></div>
         <h1 class="caps">be the first to know</h1>
         <p class="para">about our latest products and exclusive offers</p>
 
@@ -31,12 +31,20 @@
 
           <div class="inputs-tag-1">
             <div class="flex ">
+              <div>
             <label for="prefer"> Shopping Preference* </label>
+          </div>
+            <!-- <input type="text" id="prefer" name="gender" placeholder="Gender" /> -->
 
-            <input type="text" id="prefer" name="gender" placeholder="Gender" />
+            <select name="Gender" id="prefer">
+              <option value="gender">Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Feale</option>
+            </select>
           </div>
           <div class="flex marg">
-            <label for="date"> Date of Birth* </label>
+            
+            <div><label for="date"> Date of Birth* </label></div>
             <input type="text" id="date" name="date" placeholder="mm/dd/yyyy" />
           </div>
         </div>
