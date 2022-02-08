@@ -1,0 +1,115 @@
+body {
+  background-image: linear-gradient(
+      to right,
+      rgba(92, 91, 91, 0.8),
+      rgba(88, 88, 88, 0.8)
+    ),
+    url(img/cod.jpg);
+
+  font-family: sans-serif;
+}
+
+img {
+  width: 10%;
+}
+
+.image {
+  text-align: center;
+}
+.popup {
+  padding: 50px;
+  width: 50%;
+  background-color: #fff;
+  margin: 50px auto;
+}
+
+.caps {
+  text-transform: uppercase;
+  font-family: "Ostwald", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+  /* font-size: 4px; */
+}
+
+.para {
+  margin-top: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.caps,
+.para {
+  text-align: center;
+}
+
+.tags {
+  width: 100%;
+}
+#mail {
+  /* width: 100%; */
+  padding: 0 0 0 9px;
+  line-height: 3;
+  width: 98%;
+}
+
+.inputs-tag {
+  margin-bottom: 16px;
+}
+
+.inputs-tag-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  width: 47%;
+}
+#prefer,
+#date {
+  width: 96%;
+  /* padding: 10px; */
+  line-height: 3;
+  padding: 0 0 0 9px;
+}
+
+#prefer {
+  height: 44px;
+  width: 100%;
+}
+
+/* .marg {
+  margin-left: 50px;
+} */
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.white-btn {
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.black-btn {
+  background-color: rgb(5, 5, 5);
+  border: 1px solid black;
+  color: #fff;
+}
+
+.white-btn,
+.black-btn {
+  width: 47%;
+  /* padding: 10px; */
+  line-height: 3;
+  /* padding: 0 0 0 3px; */
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+}
